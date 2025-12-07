@@ -3,7 +3,13 @@
 ## Project Summary
 
 ### Description: 
-Multilingual Neural Search Engine that encodes questions into semantic embeddings and performs fast similarity search with FAISS. Supports queries in many languages using a multilingual sentence-transformer.
+Many organizations have documents in multiple languages (e.g. English, Hindi, Telugu, Spanish, etc.). A user might query in one language (say Hindi) but relevant documents might exist in another (say English). Traditional search (keyword-based, per language) fails: you either need translation or manual indexing per language.
+
+You want a single search engine where the user query (in any supported language) returns semantically relevant documents across languages — based on meaning, not keyword match.
+
+This is especially useful for multinational corpora, multilingual FAQs, cross-lingual knowledgebases, etc
+
+So, this is a Multilingual Neural Search Engine that encodes questions into semantic embeddings and performs fast similarity search with FAISS. This supports queries in many languages using a multilingual sentence-transformer.
 ### Goal:
 Return relevant results even when queries are issued in different languages than the indexed data.
 
@@ -17,5 +23,5 @@ Return relevant results even when queries are issued in different languages than
 
 ## Quick Start
 
-File to run: sample.ipynb
-Dataset: data_train.csv (place in repository root)
+- File to run: sample.ipynb
+- Dataset: data_train.csv (place in repository root)

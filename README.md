@@ -24,4 +24,4 @@ Return relevant results even when queries are issued in different languages than
 ## Quick Start
 
 - File to run: sample.ipynb
-- Dataset: data_train.csv (place in repository root)
+- Dataset: data_train.csv 

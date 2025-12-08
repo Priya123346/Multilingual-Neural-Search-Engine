@@ -87,8 +87,7 @@ class Multilingual_FAISS:
             similarity = float(d) * 100
             if similarity >= threshold * 100:
                 text, vec = self.vectors[i]
-                results.append((text, similarity))
-        
+                results.append((text, similarity))        
         return results
 
 # Sidebar for configuration

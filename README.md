@@ -23,5 +23,5 @@ Return relevant results even when queries are issued in different languages than
 
 ## Quick Start
 
-- File to run: sample.ipynb
+- File to run: app.py
 - Dataset: data_train.csv 
